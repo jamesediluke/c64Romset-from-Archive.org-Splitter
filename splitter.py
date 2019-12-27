@@ -1,11 +1,7 @@
 #gadgetmiser's idempotent splitter
 
-import os, sys
-from pathlib import Path
+import os
 from shutil import move
-
-import pdb
-
 
 wd = os.getcwd()
 dirs = os.listdir()
@@ -30,7 +26,6 @@ tally = 0
 counter = 0
 target = firsttarget
 
-#pdb.set_trace()
 
 for folder in dirs:
     tally += 1
