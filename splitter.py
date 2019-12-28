@@ -4,7 +4,7 @@ import os
 from shutil import move
 
 wd = os.getcwd()
-dirs = os.listdir()
+dirs = os.listdir(wd)
 lastitemindex = len(dirs) - 1
 
 
